@@ -10,7 +10,7 @@ function Hero() {
   const [searchTerm, setSearchTerm] = useState("");
   const [bookData, setBookData] = useState([]);
 
-  const API_key =process.env.REACT_APP_GOOGLE_BOOKS_API_KEY;
+  const API_key ="AIzaSyBAjRNldZVc0fnSvjx58A5x4YViCt5kQR4";
 
  
   useEffect(() => {
