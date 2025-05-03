@@ -2,7 +2,7 @@
   "name": "booknestapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://0paziz.github.io/BookNest",
+  "homepage": "https://0paziz.github.io/BookNest/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
