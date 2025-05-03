@@ -1,0 +1,20 @@
+
+
+.card{ 
+    
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px; padding: 2rem;
+    transition: .5; text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card:hover{
+    transform: scale(1.01);
+    background-color: rgba(247, 246, 246, 0.87);
+}
+
+#book-title{margin: 0; font-size: 15px; cursor: pointer;}
+#author{ color: gray; margin: 5px; font-size: 13px;}
+#book-cover{width: 100%; cursor: pointer; height: 250px; border-radius: 5px;}

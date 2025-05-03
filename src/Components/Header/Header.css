@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-color:white;
+    --blck_color:black;
+    --white_color:white;
+    --grey_color:grey;
+}
+
+
+
+header{display: flex; align-items: center; justify-content: space-around;  height: 50px; padding: 10px; }
+
+
+.logo-container{display: flex; align-items: center; justify-content: center; gap: 10px;}
+#logo-png{width: 50px; cursor: pointer;}
+#logo-text{ font-size: 1.2rem; }
+
+.nav-bar{display: flex; align-items: center; justify-content: center; gap: 20px;}
+
+.nav-bar a{text-decoration: none; color: var(--grey_color);}
