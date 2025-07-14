@@ -10,16 +10,14 @@ function Hero() {
   const [searchTerm, setSearchTerm] = useState("");
   const [bookData, setBookData] = useState([]);
 
-  const API_key ="AIzaSyBAjRNldZVc0fnSvjx58A5x4YViCt5kQR4";
+  const API_key = "AIzaSyBAjRNldZVc0fnSvjx58A5x4YViCt5kQR4";
 
- 
   useEffect(() => {
     const storedBooks = localStorage.getItem("bookData");
     if (storedBooks) {
       setBookData(JSON.parse(storedBooks));
     }
   }, []);
-
 
   useEffect(() => {
     if (bookData.length > 0) {
@@ -51,11 +49,11 @@ function Hero() {
     <>
       <main id="hero">
         <div className="text-containers">
-          <h1 id="hero-title">Find Your Next Favorite Book</h1>
+          <h1 id="hero-title">Find Your Next Favorite Book! and download</h1>
           <p id="hero-para">
-            BookNest's the spot to find your next great read. Whether you're into chill romances,
-            wild thrillers, or something totally out there, we've got books you'll vibe with. Come
-            find your next favorite!
+            BookNest's the spot to find your next great read. Whether you're
+            into chill romances, wild thrillers, or something totally out there,
+            we've got books you'll vibe with. Come find your next favorite!
           </p>
 
           <form id="book_search" onSubmit={SearchBook}>
